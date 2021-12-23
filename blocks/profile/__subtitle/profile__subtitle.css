@@ -20,11 +20,19 @@
 }
 
 
+@media screen and (min-width: 571px) and (max-width: 746px) {
+  .profile__name {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+
+
 @media screen and (max-width: 580px) {
   .profile__subtitle {
     max-width: 282px;
     margin-left: 25px;
-    font-size: 14px;
     line-height: 17px;
     text-align: center;
     justify-self: center;

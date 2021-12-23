@@ -11,8 +11,16 @@
   border-radius: 2px;
   display: flex;
   align-self: center;
+  box-sizing: border-box;
 }
 
+@media screen and (min-width: 586px) and (max-width: 671px) {
+  .profile__add-button {
+    width: 80px;
+    height: 40px;
+    margin: 20px auto 0;
+  }
+}
 @media screen and (min-width: 672px) and (max-width: 876px) {
   .profile__add-button {
     width: 60px;
