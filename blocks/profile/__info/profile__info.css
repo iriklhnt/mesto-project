@@ -1,0 +1,11 @@
+.profile__info {
+  color: white;
+  display: grid;
+  grid-template-areas:
+  "text-title edit-button"
+  "text-subtitle text-subtitle" ;
+  column-gap: 18px;
+  row-gap: 16px;
+  margin-right: auto;
+  max-width: 336px;
+}
