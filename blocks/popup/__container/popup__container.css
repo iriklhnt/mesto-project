@@ -12,3 +12,11 @@
   align-items: center;
   justify-content: center;
  }
+
+
+ @media screen and (max-width: 700px) {
+  .popup__container {
+    max-width: 282px;
+    padding: 25px 22px 23px;
+  }
+}

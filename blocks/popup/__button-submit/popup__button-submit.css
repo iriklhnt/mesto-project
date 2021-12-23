@@ -13,5 +13,19 @@
   cursor: pointer;
   color: #fff;
   margin-top: 48px;
+}
 
+.popup__button-submit:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 700px) {
+  .popup__button-submit {
+    width: 238px;
+    height: 46px;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 17px;
+
+  }
 }

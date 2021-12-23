@@ -9,3 +9,17 @@
   margin-right: auto;
   max-width: 336px;
 }
+
+@media screen and (min-width: 581px) and (max-width: 652px) {
+  .profile__info {
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .profile__info {
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 0 33px;
+  }
+}

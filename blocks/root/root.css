@@ -1,7 +1,6 @@
 .root {
   background-color: black;
-  margin: 0;
+  margin: 0 auto;
   max-width: 1280px;
   min-width: 320px;
-
 }

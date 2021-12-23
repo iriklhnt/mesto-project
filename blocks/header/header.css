@@ -5,3 +5,10 @@
   max-width: 880px;
 
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0 0 42px 0;
+    padding: 28px 0 32px 27px;
+  }
+}

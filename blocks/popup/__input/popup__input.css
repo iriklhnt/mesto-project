@@ -10,3 +10,14 @@
   margin-bottom: 30px;
   width: 100%;
  }
+
+.popup__input:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .popup__input {
+    font-size: 14px;
+    padding: 0 0 13px 0;
+  }
+}

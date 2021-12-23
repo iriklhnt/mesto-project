@@ -11,3 +11,23 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+@media screen and (min-width: 672px) and (max-width: 876px) {
+  .profile__subtitle {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+  .profile__subtitle {
+    max-width: 282px;
+    margin-left: 25px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+  }
+}
