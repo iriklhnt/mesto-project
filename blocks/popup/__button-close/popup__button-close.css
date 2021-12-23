@@ -8,6 +8,7 @@
    background-color: transparent;
    border: none;
    cursor: pointer;
+   background-size: contain;
  }
 
 .popup__button-close:hover {
@@ -16,6 +17,7 @@
 
 @media screen and (max-width: 700px) {
   .popup__button-close {
+  background-size: contain;
    right: 0;
    width: 20px;
    height: 20px;
@@ -24,3 +26,5 @@
    align-items: center;
   }
 }
+
+

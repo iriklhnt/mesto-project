@@ -13,10 +13,17 @@
   justify-content: center;
  }
 
+ /*@media screen and (max-width:321px) and (min-width:1279px ) {
+  .popup__container {
+    max-width: 300px;
+    padding: 30px 31px 32px;
+  }
+ }*/
 
  @media screen and (max-width: 700px) {
   .popup__container {
     max-width: 282px;
+    height: 322px;
     padding: 25px 22px 23px;
   }
 }
