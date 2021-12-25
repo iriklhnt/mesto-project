@@ -13,6 +13,5 @@
   .elements {
     margin-bottom: 20px;
     grid-template-columns: repeat(1, 282px);
-
   }
 }

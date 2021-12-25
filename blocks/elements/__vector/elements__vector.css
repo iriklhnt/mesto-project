@@ -8,6 +8,7 @@
   background-color: transparent;
   border: none;
   display: block;
+  cursor: pointer;
 }
 
 .elements__vector:hover {

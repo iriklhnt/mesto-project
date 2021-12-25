@@ -37,5 +37,8 @@
     text-align: center;
     justify-self: center;
     align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
   }
 }
